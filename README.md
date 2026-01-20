@@ -5,26 +5,7 @@
 Игру реализовали на Python с использованием графической библиотеки Pygame.
 
 ## Демонстрация
-Скриншот игрового процесса представлен ниже:
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        <h>.image-container<h/> {
-            background-image: url('https://avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-images-thumbs&n=13');
-            background-size: cover; /* масштабирует изображение */
-            width: 300px;
-            height: 200px;
-        }
-    </style>
-    <title>Фоновая фотография</title>
-</head>
-<body>
-    <div class="image-container"></div>
-</body>
-</html>
+https://avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-images-thumbs&n=13
 
 ## Управление
 - **Пробел**: прыжок
