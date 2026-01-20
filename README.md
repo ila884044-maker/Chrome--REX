@@ -7,9 +7,25 @@
 ## Демонстрация
 Скриншот игрового процесса представлен ниже:
 
-<p align="center">
-  <img src="//ыва/dino.webp" alt="Пример игры"/>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            background-image: url('https://example.com/image.jpg');
+            background-size: cover; /* масштабирует изображение */
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+    <title>Фоновая фотография</title>
+</head>
+<body>
+    <div class="image-container"></div>
+</body>
+</html>
 
 ## Управление
 - **Пробел**: прыжок
@@ -22,3 +38,12 @@ git clone https://github.com/ila884044-maker/Chrome--REX.git
 cd Chrome--REX
 pip install -r requirements.txt
 python main.py
+## Требования
+- Python версии 3.6 и выше
+- Библиотека Pygame (`pip install pygame`)
+
+## Версии и изменения
+Проект постоянно развивается, отслеживайте обновления на странице релиза или в коммитах.
+
+## Авторы
+Автор проекта: Ila (ila884044-maker)
