@@ -8,7 +8,7 @@
 Скриншот игрового процесса представлен ниже:
 
 <p align="center">
-  <img src="avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-images-thumbsn=13" alt="Пример игры"/>
+  <img src="//ыва/dino.webp" alt="Пример игры"/>
 </p>
 
 ## Управление
