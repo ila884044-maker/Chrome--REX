@@ -1,1 +1,50 @@
+# Игнорируем временные файлы и папки
+*.pyc
+__pycache__
+.DS_Store
+.idea/
+.vscode/
+build/
+dist/
+*.log
+*.bak
+*.tmp
 
+# Игнорируем виртуальные среды Python
+venv/
+env/
+
+# Игнорируем артефакты сборки
+*.exe
+*.so
+*.dll
+*.o
+*.obj
+*.lib
+*.a
+*.dylib
+
+# Игнорируем бинарные активы (если нужны исходники изображений, звуков и т.п.)
+assets/*
+!assets/.gitkeep
+
+# Игнорируем конфигурации IDE
+.project
+.settings/
+.classpath
+.targets
+.ipynb_checkpoints/
+
+# Игнорируем личные настройки разработчика
+local_settings.py
+config.ini
+secrets.json
+
+# Специфичные для конкретной операционной системы
+Thumbs.db
+desktop.ini
+.svn/
+
+# Лог-файлы и кэширование
+logs/
+cache/
