@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .image-container {
-            background-image: url('https://example.com/image.jpg');
+            background-image: url('https://avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-images-thumbs&n=13');
             background-size: cover; /* масштабирует изображение */
             width: 300px;
             height: 200px;
