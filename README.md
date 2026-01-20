@@ -13,12 +13,19 @@ https://avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-
 - **Стрелки вправо-влево**: движение героя (при наличии горизонтальных перемещений)
 
 ## Установка и запуск
-Для начала убедитесь, что у вас установлен Python и пакет `Pygame`. Затем выполните следующие команды:
+Для начала убедитесь, что у вас установлен Python и пакет `Pygame`. 
+Затем выполните следующие команды:
+
 bash
+
 git clone https://github.com/ila884044-maker/Chrome--REX.git
+
 cd Chrome--REX
+
 pip install -r requirements.txt
+
 python main.py
+
 ## Требования
 - Python версии 3.6 и выше
 - Библиотека Pygame (`pip install pygame`)
