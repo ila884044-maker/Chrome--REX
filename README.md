@@ -16,15 +16,22 @@ https://avatars.mds.yandex.net/i?id=d42058f30596da8c8186e3680c7eeedc_l-13039834-
 Для начала убедитесь, что у вас установлен Python и пакет `Pygame`. 
 Затем выполните следующие команды:
 
-bash
+Инструкция по установке
+1. Скачать или клонировать репозиторий:
+   ```bash
+   git clone https://github.com/ila884044-maker/Chrome--REX.git
+   cd Chrome--REX
+   ```
 
-git clone https://github.com/ila884044-maker/Chrome--REX.git
+2. Установить зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-cd Chrome--REX
-
-pip install -r requirements.txt
-
-python main.py
+3. Запустить игру:
+   ```bash
+   python main.py
+   ```
 
 ## Требования
 - Python версии 3.6 и выше
