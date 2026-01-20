@@ -1,0 +1,48 @@
+#.pre-commit-config.yaml
+repos:
+  # Хранение крючков для базовых проверок формата и синтаксиса
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0 
+    hooks:
+      # Проверяет валидность YAML-файлов
+      - id: check-yaml
+        args: []  
+      # Автоматически исправляет символы конца файла (EOL)
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  # Крючок для автоматического форматирования кода Python
+  - repo: https://github.com/pyccel/black
+    rev: stable  
+    hooks:
+      - id: black
+        language_version: python3  
+        types: [python]  
+
+  # Крючок для сортировки импортируемых модулей
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0  
+    hooks:
+      - id: isort
+        language_version: python3  
+        types: [python]  
+
+  # Крючок для анализа стиля и обнаружения ошибок в Python-кодах
+  - repo: https://github.com/psf/flake8
+    rev: 6.0.0  
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-docstrings==1.6.0]  # Включены плагины docstring
+        exclude: ^tests$  
+        types: [python]  
+
+  # Локальный крючок для проверки типов с помощью MyPy
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy type checker  
+        entry: mypy  
+        language: system  
+        pass_filenames: true  
+        always_run: false  
+        types: [python]  
